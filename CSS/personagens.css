@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------*/
+
+nav {
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 50%,
+        rgb(35, 35, 35)
+    );
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 250px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 18px 0px 60px 0px;
+}
+
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*---------------------------------------------------------------------*/
+
+#apresentation {
+    background: linear-gradient(
+        to bottom,
+        rgb(35, 35, 35) 50%,
+        rgb(0, 0, 0)
+    );
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: yellow;
+}
+
+#slogan {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 0px 0px 100px 0px;
+}
+
+/*------------------------------------------------------------------------*/
+
+#big-text {
+    color: white;
+    font-size: 30px;
+}
+
+#middle {
+    background-color: black;
+    padding: 100px 0px 200px 0px;
+    border-bottom: 4px solid rgba(255, 243, 13, 0.5);
+}
+
+/*--------------------------------------------------------------------------*/
+
+main {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url("C:/Users/00000868023/Desktop/A Bizarre Wiki/Photos/back-killer-queen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 17px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+}
+
+.person-img {
+    block-size: 300px;
+    border-radius: 20px;
+    border: 4px solid black;
+    margin-bottom: 6px;
+    width: 300px;
+    height: 300px;
+}
+
+.person-name {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    color: rgba(255, 255, 0, 0.900);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.main-title {
+    font-size: 60px;
+    color: rgba(255, 255, 0, 0.900);
+    border-bottom: 7px solid rgba(255, 255, 0, 0.900);
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+
+.text-and-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    border: 4px solid rgba(255, 255, 0, 0.600);
+}
+
+#adjust {
+    text-align: center;
+    padding: 100px 0px;
+    color: rgba(255, 255, 255, 0);
+    cursor: default;
+}
+
+/*-------------------------------------------------------------------*/
+
+footer {
+    background-color: black;
+    border-top: 4px solid rgba(255, 243, 13, 0.5);
+    padding: 30px 0px;
+}
+
+#footer-txt {
+    color: white;
+    text-align: center;
+    max-width: 1500px;
+}
+
+/*-------------------------------------------------------------------*/
+
+#search-box {
+    background-color: rgba(174, 3, 174, 0.662);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 0px;
+    margin: 50px 0px 0px 0px;
+    cursor: text;
+    border: 3px solid rgba(255, 243, 13, 0.5);
+}
+
+#no-result {
+    display: none;
+    text-align: center;
+    padding: 250px 0px 0px 0px;
+    font-size: 25px;
+    color:rgba(255, 243, 13, 0.77);
+}
+
+/*-------------------------------------------------------------------*/
+
+#parts {
+    color: rgb(255, 243, 13);
+    background-color: rgba(174, 3, 174, 0.662);
+    border-radius: 10px;
+    border: 3px solid rgba(255, 243, 13, 0.5);
+    margin: 50px 0px 10px 0px;
+    font-size: 20px;
+}
+
+#categ {
+    color: rgb(255, 243, 13);
+    background-color: rgba(174, 3, 174, 0.662);
+    border-radius: 10px;
+    border: 3px solid rgba(255, 243, 13, 0.5);
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+}
+
+#teams {
+    color: rgb(255, 243, 13);
+    background-color: rgba(174, 3, 174, 0.662);
+    border-radius: 10px;
+    border: 3px solid rgba(255, 243, 13, 0.5);
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+/*-------------------------------------------------------------------*/
+
+.voltar-topo {
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+}
+
+.voltar-topo.ativo {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.4s;
+}
+
+#arrow-button {
+    block-size: 60px;
+}
+
+#arrow-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ /*-------------------------------------------------------------------*/

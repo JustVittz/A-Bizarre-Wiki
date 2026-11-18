@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------------------------------------------------*/
+
+#header-img {
+    block-size: 400px;
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(0, 0, 0, 0)
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(0, 0, 0, 0)
+    );
+}
+
+/*--------------------------------------------------------------*/
+
+aside {
+    background: linear-gradient(
+        to bottom,
+        rgb(99, 0, 99) 65%,
+        rgb(0, 0, 0)
+    );
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 30px;
+}
+
+aside h1 {
+    color: rgba(255, 255, 255, 0.879);
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+nav {
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 50%,
+        rgb(99, 0, 99)
+    );
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 250px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 18px 0px 60px 0px;
+}
+
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*---------------------------------------------------------------------*/
+
+#apresentation {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid rgba(255, 243, 13, 0.5);
+}
+
+#subtitle {
+    font-size: 35px;
+    padding: 150px 0px 20px 0px;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: yellow;
+}
+
+#slogan {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 0px 0px 130px 0px;
+}
+
+#subtitle-2 {
+    font-size: 35px;
+    padding: 180px 0px 130px 0px;
+}
+
+/*------------------------------------------------------------------------*/
+
+main {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url("C:/Users/00000868023/Desktop/A Bizarre Wiki/Photos/back-killer-queen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#common-text {
+    color: white;
+    font-size: 20px;
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-img-text {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px;
+    max-width: 1300px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 200px 0px 0px 0px;
+}
+
+#jjba-logo-main {
+    block-size: 270px;
+}
