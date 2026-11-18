@@ -1,0 +1,34 @@
+data-part="" data-team="" data-form="" data-range="" data-type="" data-special=""
+
+<option value="human"> Humanoide </option>
+<option value="natural"> Natural </option>
+<option value="object"> Objeto </option>
+<option value="group"> Colônia </option>
+
+<option value="short"> Curto </option>
+<option value="mid"> Médio </option>
+<option value="big"> Longo </option>
+<option value="infin"> Ilimitado </option>
+
+<option value="normal"> Padrão </option>
+<option value="auto"> Automático </option>
+<option value="remote"> Remoto </option>
+<option value="integrated"> Integrado </option>
+<option value="bound"> Vinculado </option>
+
+<option value="act"> ACTs </option>
+<option value="requiem"> Requiem </option>
+
+<option value="cruzaders"> Cruzaders </option>
+<option value="seguid-dio"> Seguidores de DIO </option>
+<option value="josuke-team"> Grupo Josuke </option>
+<option value="kira-team"> Grupo Kira </option>
+<option value="bucci-team"> Grupo Bucciarati  </option>
+<option value="killers-team"> La Squadra Esecuzioni </option>
+<option value="guarda-costas"> Guarda-costas do Chefe </option>
+<option value="jolyne-team"> Grupo Jolyne </option>
+<option value="pucci-team"> Seguidores de Pucci </option>
+<option value="johnny-team"> Grupo Johnny </option>
+<option value="exerc-valent"> Seguidores de Valentine </option>
+<option value="higashik"> Familia Higashikata </option>
+<option value="rock-humans"> Humanos de pedra </option>
